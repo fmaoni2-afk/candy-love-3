@@ -6,3 +6,21 @@
   "compatibility_flags": ["nodejs_compat"],
   "assets": { "directory": ".open-next/assets", "binding": "ASSETS" }
 }
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "candy-love-3",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-09-28",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://twlkvbrjodzgecrimdce.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_k5MKKuDRL9pD0YBW_S0Ytw_3e56zi3a",
+    "NEXT_PUBLIC_SUPABASE_BUCKET": "andy-love-private",
+    "SUPABASE_BUCKET": "andy-love-private",
+    "ADMIN_EMAIL": "fmaoni2@gmail.com"
+  },
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  }
+}
